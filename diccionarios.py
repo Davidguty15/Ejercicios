@@ -5,12 +5,14 @@
 # # Los valores pueden ser de cualquier tipo y pueden repetirse.
 #
 # # Ejemplo de un diccionario simple
-# diccionario = {
-#     "nombre": "Juan",
-#     "edad": 30,
-#     "ciudad": "Madrid"
-# }
-# print(diccionario)
+diccionario = {
+    "nombre": "Juan",
+    "edad": 30 ,
+    "ciudad": "Madrid",
+    1: "uno",
+    True : "hola"}
+
+print(diccionario)
 # # Este código crea un diccionario llamado "diccionario" con tres pares clave-valor: "nombre", "edad" y "ciudad".
 
 # # Imprime el diccionario completo.
@@ -56,7 +58,7 @@
 # # Este código imprime un mensaje indicando si la clave "nombre" existe o no en el diccionario.
 #
 # # Longitud del diccionario
-# print(len(diccionario))  # Imprime la cantidad de pares clave-valor en el diccionario
+print(len(diccionario))  # Imprime la cantidad de pares clave-valor en el diccionario
 # # Este código imprime la longitud del diccionario, es decir, la cantidad de pares clave-valor que contiene.
 # # Este código imprime la cantidad de pares clave-valor en el diccionario.
 #
